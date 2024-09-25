@@ -3,10 +3,6 @@ kind: Deployment
 metadata:
   name: weather-app
   namespace: weather-app
-  annotations:                   # Fix indentation here
-    argocd.argoproj.io/health-check: |
-      status: Healthy
-      message: All pods are up and running
 spec:
   replicas: 3
   selector:
