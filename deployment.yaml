@@ -8,7 +8,7 @@ metadata:
       status: Healthy
       message: All pods are up and running
 spec:
-  replicas: 2
+  replicas: 3
   selector:
     matchLabels:
       app: weather-app
